@@ -34,8 +34,7 @@ const SearchBox = ({updateInfo}) => {
     let finalRes={
       city: city,
       temp:cleanInfo.main.temp,
-​      temp_max:cleanInfo.main.temp_max,
-      temp_min:cleanInfo.main.temp_min,
+​      temp_min:cleanInfo.main.temp_max,
       humidity:cleanInfo.main.humidity,
       feels_like:cleanInfo.main.feels_like,
       weather:cleanInfo.weather[0].description

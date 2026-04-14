@@ -9,7 +9,6 @@ const Weather = () => {
     feels_like: 0.00,
     temp: 0.00,
     temp_min: 0.00,
-    temp_max: 0.00,
     humidity: 0,
     weather: "type",
     isInitial: true
@@ -22,6 +21,7 @@ const Weather = () => {
   backgroundImage: "linear-gradient(to bottom right, #e0f7fa, #80deea)",
   textAlign: "center",
   minHeight: "100vh", 
+  width: "100%",
   display: "flex",
   flexDirection: "column",
   alignItems: "center",

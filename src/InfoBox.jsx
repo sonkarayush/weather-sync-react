@@ -40,8 +40,7 @@ const initial="https://skymetglobalweather.com/strapi_skymet/uploads/1200630_Do_
           <Typography variant="body2" sx={{ color: 'text.secondary' }}component="div" >
            <p><b>Temperature:</b> {info.temp}&deg;C</p>
                 <p><b>Humidity:</b> {info.humidity}%</p>
-                <p><b>Min Temp:</b> {info.temp_min}&deg;C</p>
-                <p><b>Max Temp:</b> {info.temp_max}&deg;C</p>
+                <p><b>Min/Max Temp:</b> {info.temp_min}&deg;C</p>
                 <p>The weather can be described as <i><b>{info.weather}</b></i> and feels like <b>{info.feels_like}&deg;C</b></p>
           </Typography>
         </CardContent>
