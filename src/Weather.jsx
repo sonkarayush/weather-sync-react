@@ -25,6 +25,7 @@ const Weather = () => {
   display: "flex",
   flexDirection: "column",
   alignItems: "center",
+  justifyContent: "center",
   gap: "30px"
 };
 

@@ -50,7 +50,7 @@ const SearchBox = ({updateInfo}) => {
  
   return (
     <div>
-      <h1><u>Search For Weather</u></h1>
+      <h1 style={{ marginBottom: "20px" }}><u>Search For Weather</u></h1>
       <form onSubmit={submit}>
         <TextField id="outlined-basic" label="CITY NAME" variant="outlined" value={city} onChange={change} required  /><br></br><br></br>
         <Button  variant="contained" color="success" type="submit">SEARCH</Button>
