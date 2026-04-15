@@ -1,4 +1,5 @@
 # WeatherSync 🌦️
+**Live Demo:** [weather-sync-react.vercel.app](https://weather-sync-react.vercel.app)
 
 A clean, responsive weather forecasting application built with **React.js** and **Material UI**. This project utilizes the OpenWeatherMap API to provide accurate, real-time weather data through a streamlined user interface.
 
@@ -21,7 +22,7 @@ A clean, responsive weather forecasting application built with **React.js** and 
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/your-username/weather-sync-react.git](https://github.com/your-username/weather-sync-react.git)
+   git clone [https://github.com/sonkarayush/weather-sync-react.git](https://github.com/sonkarayush/weather-sync-react.git)
 
 2. **Navigate to the project directory:**
 cd weather-sync-react
