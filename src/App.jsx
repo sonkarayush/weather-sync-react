@@ -1,12 +1,5 @@
-import React from 'react'
-import Weather from './Weather'
+import Weather from "./Weather";
 
-const App = () => {
-  return (
-    <div>
-      <Weather/>
-    </div>
-  )
+export default function App() {
+  return <Weather />;
 }
-
-export default App
