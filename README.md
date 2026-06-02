@@ -1,52 +1,56 @@
 # WeatherSync 🌦️
-**Live Demo:** [weather-sync-react.vercel.app](https://weather-sync-react.vercel.app)
+> **Live conditions, perfectly synced.**
 
-A clean, responsive weather forecasting application built with **React.js** and **Material UI**. This project utilizes the OpenWeatherMap API to provide accurate, real-time weather data through a streamlined user interface.
+**Live Demo:**(https://weather-sync-react.vercel.app/)
 
-## 🚀 Current Features
-* **Real-time Weather Data:** Instantly fetches and displays Temperature, Humidity, Min/Max Temp, "Feels Like" temperature, and weather descriptions for any city.
-* **Loading States:** Implements asynchronous data fetching with a Material UI `CircularProgress` indicator for smooth user experience.
-* **Error Handling:** Safely manages invalid inputs (e.g., non-existent city names) and prevents application crashes.
-* **Secure API Integration:** Environment variables (`.env`) are utilized via Vite to securely manage OpenWeatherMap API keys.
+WeatherSync is a premium, responsive weather forecasting dashboard built with React.js. Utilizing the OpenWeatherMap API, it delivers real-time weather data and an upcoming 5-day forecast through a modern, glassmorphic user interface. The application features dynamic visual themes that adapt instantly to current weather conditions, providing an immersive and intuitive user experience.
+
+---
+
+## ✨ Key Features
+
+* **Dynamic Weather Backgrounds:** The application automatically updates its high-resolution background landscape imagery to match the real-time weather condition (e.g., Clear, Clouds, Rain, Mist/Haze).
+* **Modern Glassmorphism UI:** A clean, centered, side-by-side desktop dashboard layout utilizing semi-transparent panels, backdrop blurs, and high-contrast typography for a premium look.
+* **Streamlined Metric Grid:** Instantly fetches and displays stable, accurate data points including Wind Speed, Humidity, Visibility (converted to km), and Cloud Cover percentage, eliminating timezone conversion bugs.
+* **5-Day Forecast Strip:** Vibrant, custom-styled forecast modules displaying upcoming temperatures and conditions with explicit, color-forced weather icons that stay vibrant against the background.
+* **Session-Only Search History:** Smart tracking of recent city searches during the active session. History is kept in local React state and is deliberately wiped clean upon page refresh for a clutter-free experience.
+* **Robust UX Engineering:** Features clean asynchronous data-fetching lifecycles, smooth loading animations, and robust error-handling for non-existent city queries.
+
+---
 
 ## 🛠️ Tech Stack
-* **Frontend:** React.js, Material UI (MUI 5)
-* **Build Tool:** Vite
-* **API:** OpenWeatherMap API
-* **Styling:** CSS Modules
+
+* **Frontend Framework:** React.js (Functional components with standard `useState` and `useEffect` hooks)
+* **Build Tool:** Vite (Optimized for lightning-fast HMR and build performance)
+* **API Integration:** OpenWeatherMap API (Current Weather & 5-Day Forecast Endpoints)
+* **Styling & Layout:** CSS Flexbox/Grid, Glassmorphic design principles, Material UI (MUI 5) base elements
+
+---
 
 ## 📸 Screenshots
-     (image.png)
+
+(./image.png)
+
+---
 
 ## ⚙️ Installation & Setup
 
+Follow these steps to run the project locally:
+
 1. **Clone the repository:**
-   ```bash
-   git clone [https://github.com/sonkarayush/weather-sync-react.git](https://github.com/sonkarayush/weather-sync-react.git)
-
+   git clone: (https://github.com/sonkarayush/weather-sync-react.git)
 2. **Navigate to the project directory:**
-cd weather-sync-react
-
-3. **Install dependencies**
-npm install
-
+   cd weather-sync-react
+3. **Install dependencies:**
+   npm install
 4. **Set up Environment Variables:**
-Create a .env file in the root directory.
-
-Add your OpenWeatherMap API key exactly like this:
-VITE_WEATHER_API_KEY=your_api_key_here
-
+   * Create a `.env` file in the root directory of the project.
+   * Add your free OpenWeatherMap API key exactly like this:
+     VITE_WEATHER_API_KEY=your_api_key_here
 5. **Start the development server:**
-npm run dev
-
-🗺️ **Future Enhancements (Coming Soon)**
-
-    Integration of dynamic weather icons based on current conditions.
-
-    Dynamic background visuals that change according to the weather (e.g., rain, sunny, snow).
-
-    7-day forecast visualization.
-
-👨‍💻 Author
-
-AYUSH SONKAR, IIT Guwahati
+    npm run dev
+   
+## 👨‍💻 Author
+**Ayush Sonkar**  
+*Undergraduate Student, Indian Institute of Technology (IIT) Guwahati*   
+* Email: a.sonkar@iitg.ac.in
