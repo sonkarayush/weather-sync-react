@@ -29,7 +29,7 @@ WeatherSync is a premium, responsive weather forecasting dashboard built with Re
 
 ## 📸 Screenshots
 
-(./image.png)
+![Dashboard Preview](./Demo.png)
 
 ---
 
